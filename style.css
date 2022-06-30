@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    background-color: #f5f5f5;
+}
+
+html, body{
+    height: 100%;
+}
+
+.login-form{
+    width: 320px;
+    margin: auto;
+}
+
+form .form-control{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.form-control:focus{
+    position: relative;
+    z-index: 2;
+}
+
+form input[type = 'email']
+{
+ border-bottom-left-radius: 0;
+ border-bottom-right-radius: 0;   
+}
+
+form input[type = 'password']
+{
+    border-top-right-radius: 0;   
+ border-top-left-radius: 0;
+}
